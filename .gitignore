@@ -1,0 +1,31 @@
+# Module artifacts
+vendor/
+bin/
+pkg/
+
+# Logs or temp
+*.log
+*.tmp
+
+# OS-specific
+Icon?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Go mod tidy backups
+go.sum.bak
+
+# artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+
+# Sync folders & file
+mpeersync
+sync/inbox/
+sync/outbox/
+private.key
+public.key
+keys/
